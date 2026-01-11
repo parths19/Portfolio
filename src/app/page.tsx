@@ -20,12 +20,12 @@ export default function Home() {
         {/* Hero Section */}
         <section id="home" className="snap-section relative flex flex-col items-center justify-center overflow-hidden">
           <ThreeHero />
-          
-          <div className="container relative z-10 text-center flex flex-col items-center justify-center h-full pointer-events-none">
-            <h1 className="text-[12vw] font-display font-black leading-[0.8] tracking-tighter mix-blend-difference mb-4">
+
+          <div className="container relative z-10 text-center flex flex-col items-center justify-center h-full pointer-events-none px-4">
+            <h1 className="text-[14vw] sm:text-[12vw] md:text-[10vw] lg:text-[9vw] font-display font-black leading-[0.85] tracking-tighter mix-blend-difference mb-4 break-words">
               PARTH<br />SHRIVASTAVA
             </h1>
-            <p className="text-xl md:text-2xl font-medium tracking-[0.2em] text-neon-cyan mix-blend-difference uppercase">
+            <p className="text-lg md:text-2xl font-medium tracking-[0.2em] text-neon-cyan mix-blend-difference uppercase">
               Software Developer
             </p>
           </div>
